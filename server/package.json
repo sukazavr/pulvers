@@ -1,0 +1,24 @@
+{
+  "name": "pulvers-server",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.1.4",
+    "@types/steamid": "^1.1.0",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^3.0.1",
+    "@marblejs/core": "^1.2.1",
+    "@marblejs/middleware-body": "^1.2.1",
+    "@marblejs/middleware-logger": "^1.2.1",
+    "node-fetch": "^2.3.0",
+    "rxjs": "6.2.2",
+    "steamid": "^1.1.0"
+  }
+}
